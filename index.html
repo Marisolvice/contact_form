@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
+    <link rel="stylesheet" href="styles.css" />
     <link
       rel="icon"
       type="image/png"
@@ -15,28 +15,45 @@
     <title>Frontend Mentor | Contact form</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    <h1>Contact Us</h1>
+    <form class="formulario">
+      <h1>Contact Us</h1>
 
-    <form>
-      <label for="firstName"> First Name *</label>
-      <input id="firstName" type="text" name="firstName" />
+      <div class="nombre_Apellido">
+        <label for="firstName"> First Name *</label>
+        <input id="firstName" type="text" name="firstName" />
 
-      <label for="LastName"> Last Name *</label>
-      <input id="LastName" type="text" name="LastName" />
+        <label for="LastName">Last Name *</label>
+        <input id="LastName" type="text" name="LastName" />
+      </div>
 
-      <label for="email">email Address *</label>
-      <input type="email" name="email" id="email" />
+      <div class="correo">
+        <label for="email">Email Address *</label>
+        <input type="email" name="email" id="email" /><br /><br />
+      </div>
+
+      <div class="message">
+        <label for="querytype">Query Type*</label> <br />
+
+        <input id="GeneralEnquiry" type="radio" name="GeneralEnquiry" />
+        <label for="GeneralEnquiry">General Enquiry</label>
+
+        <input id="supportrequest" type="radio" name="supportrequest" />
+        <label for="supportrequest">Support Request</label>
+      </div>
+      <div class="textarea">
+        <label for="message">Message *</label>
+        <textarea type="text" name="message" id="message"></textarea>
+      </div>
+
+      <div>
+        <input id="consentimiento" type="checkbox" name="consentimiento" />
+        <label for="consentimiento"
+          >I consent to being contacted by the team *</label
+        >
+      </div>
+      <button type="submit">Submit</button>
     </form>
 
     This field is required This field is required Email Address Please enter a
