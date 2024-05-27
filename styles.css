@@ -4,6 +4,12 @@
      display: inline-block;
      
     }
+        label {
+            text-align: left;
+            display:inline-block;
+            margin-bottom: 12px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
 
  .attribution a {
      color: hsl(228, 45%, 44%);
@@ -13,16 +19,17 @@
  }
 
 .formulario{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
-    height: 320px;
+    height: 400px;
     width: 620px;
     margin: 20px;
     padding: 15px;
     text-align: left;
     border-radius: 10px;
-    box-shadow: ;
+    box-shadow: 5px 5px 5px rgb(121, 118, 118);
    
 }
  .nombre_Apellido{
@@ -31,20 +38,22 @@
     height: 25px;
     margin: 10px;
     width: 320px;
-   
- }
-
- .correo{
-    display: flex;
-    flex-direction: revert;
-    height: 25px;
-    margin: 10px;
-    width: 520px;
  }
 
  .textarea{
-    width: 50%;
+    width: 95%;
     border-radius: 10px;
-    font-size: 12px;
+    display: grid;
+    padding: 10px;
     
+ }
+ button{
+    background-color: #04AA6D;
+    width: 95%;
+    border-radius: 5px;
+    border:none;
+    color: white;
+    padding: 12px 20px;
+    justify-content: center;
+   
  }
