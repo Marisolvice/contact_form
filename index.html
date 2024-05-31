@@ -13,26 +13,24 @@
     />
 
     <title>Frontend Mentor | Contact form</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
     <form class="formulario">
       <h1>Contact Us</h1>
 
       <div class="nombre_Apellido">
-        <label for="firstName"> First Name *</label>
+        <label class="d-block" for="firstName"> First Name *</label>
         <input id="firstName" type="text" name="firstName" />
 
-        <label for="LastName">Last Name *</label>
+        <label class="d-block" for="LastName">Last Name *</label>
         <input id="LastName" type="text" name="LastName" />
 
-        <label for="email">Email Address *</label>
+        <label class="d-block" for="email">Email Address *</label>
         <input type="email" name="email" id="email" />
       </div>
 
       <div class="radiobutton">
-        <label for="querytype">Query Type*</label> <br />
+        <label class="d-block" for="querytype">Query Type*</label>
 
         <input id="GeneralEnquiry" type="radio" name="GeneralEnquiry" />
         <label for="GeneralEnquiry">General Enquiry</label>
@@ -41,7 +39,7 @@
       </div>
 
       <div class="textarea">
-        <label for="message">Message *</label>
+        <label class="d-block" for="message">Message *</label>
         <textarea type="text" name="message" id="message" rows="4"></textarea>
       </div>
       <div>
@@ -52,7 +50,6 @@
       </div>
       <button type="submit">Submit</button>
     </form>
-    <br />
     This field is required This field is required Email Address Please enter a
     valid email address This field is required Query Type General Enquiry
     Support Request Please select a query type Message This field is required I
