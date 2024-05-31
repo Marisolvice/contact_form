@@ -1,71 +1,74 @@
+ /* color principal:#E0F1E7 */
+ :root{
+    --color-fondo-principal:#E0F1E7;
+ }
+
+ /* selecciones generales */
+  body {
+      background-color: rgb(146, 209, 202);
+  }
+
+   label {
+       text-align: left;
+       display: inline-block;
+       margin-bottom: 12px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   /* estilos formulario */
+   .formulario {
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       display: inline-block;
+       flex-direction: column;
+       background-color: rgb(255, 255, 255);
+       height: 400px;
+       width: 620px;
+       margin: 20px;
+       padding: 15px;
+       text-align: left;
+       border-radius: 10px;
+       box-shadow: 5px 5px 5px rgb(121, 118, 118);
+
+   }
+
+        .nombre_Apellido {
+            display: contents;
+            flex-direction: revert;
+            height: 25px;
+            margin: 10px;
+            width: 320px;
+        }
+    
+        .textarea {
+            width: 95%;
+            border-radius: 10px;
+            display: grid;
+            padding: 10px;
+    
+        }
+    
+        button {
+            background-color: #04AA6D;
+            width: 95%;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            padding: 12px 20px;
+            justify-content: center;
+    
+        }
+
+  /* copy right */
  .attribution {
      font-size: 12px;
      text-align: left;
      display: inline-block;
      
     }
-        label {
-            text-align: left;
-            display:inline-block;
-            margin-bottom: 12px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
+       
 
  .attribution a {
      color: hsl(228, 45%, 44%);
  }
- body{
-    background-color: rgb(146, 209, 202);
- }
 
-.formulario{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: inline-block;
-    flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    height: 400px;
-    width: 620px;
-    margin: 20px;
-    padding: 15px;
-    text-align: left;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px rgb(121, 118, 118);
-   
-}
- .nombre_Apellido{
-    display:contents ;
-    flex-direction: revert;
-    height: 25px;
-    margin: 10px;
-    width: 320px;
- }
 
- .textarea{
-    width: 95%;
-    border-radius: 10px;
-    display: grid;
-    padding: 10px;
-    
- }
- button{
-    background-color: #04AA6D;
-    width: 95%;
-    border-radius: 5px;
-    border:none;
-    color: white;
-    padding: 12px 20px;
-    justify-content: center;
-   
- }
 
- @media (max-width:400px){
-    body{
-        background-color: #c9f721d6;
-    }
- }
-
-  @media (min-width:300px) {
-      body {
-          background-color: #1bd6aa92;
-      }
-  }
