@@ -14,23 +14,25 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-label {
+/* label {
   text-align: left;
   display: inline-block;
   margin-bottom: 12px;
-}
+} */
 
 /* utilidades */
 .d-block {
-  display: block;
+  text-align: left;
+  display: contents;
+  white-space: nowrap;
+  margin-bottom: 5px;
 }
 
 /* estilos formulario */
 .formulario {
-  display: inline-block;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
-  height: 400px;
+  height: 450px;
   width: 620px;
   margin: 20px;
   padding: 15px;
@@ -40,11 +42,18 @@ label {
 }
 
 .nombre_Apellido {
-  display: contents;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 20px 20px;
+  gap: 20px;
   flex-direction: revert;
   height: 25px;
   margin: 10px;
   width: 320px;
+}
+
+.radiobutton {
+  margin-top: 20px;
 }
 
 .textarea {
@@ -54,6 +63,9 @@ label {
   padding: 10px;
 }
 
+.correo {
+  margin-top: 15px;
+}
 button {
   background-color: var(--color-boton-primario);
   width: 95%;
