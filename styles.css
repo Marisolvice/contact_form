@@ -6,6 +6,7 @@
 :root {
   --color-fondo-principal: #e0f1e7;
   --color-boton-primario: #0c7d69;
+  --color-bordes-formulario: #959b99;
 }
 
 /* selecciones generales */
@@ -17,10 +18,11 @@ body {
 
 /* utilidades */
 .d-block {
-  text-align: left;
-  display: contents;
-  white-space: nowrap;
-  margin-bottom: 5px;
+  display: block;
+}
+
+.mb-14 {
+  margin-bottom: 14px;
 }
 /* contenedor general */
 .contenedor {
@@ -34,7 +36,6 @@ body {
 .formulario {
   flex-direction: column;
   background-color: rgb(255, 255, 255);
-  height: 450px;
   width: 620px;
   padding: 15px;
   text-align: left;
@@ -42,44 +43,10 @@ body {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
 }
 
-.nombre_Apellido {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 20px 20px;
-  flex-direction: revert;
-  height: 25px;
-  gap: 10px;
-  width: 320px;
-
-  #firstName {
-    height: 25px;
-    width: 186px;
-  }
-  #LastName {
-    height: 25px;
-    width: 200px;
-  }
-}
-
-.correo {
-  margin-top: 15px;
-  width: auto;
-
-  input {
-    width: 78%;
-    height: 25px;
-  }
-}
-
-.radiobutton {
-  margin-top: 20px;
-}
-
-.textarea {
-  width: 95%;
-  border-radius: 10px;
-  display: grid;
-  padding: 10px;
+.input-field {
+  height: 50px;
+  border: 1px solid var(--color-bordes-formulario);
+  border-radius: 8px;
 }
 
 button {
