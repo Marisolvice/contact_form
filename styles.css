@@ -32,6 +32,11 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.nombre-apellido {
+  display: flex;
+  gap: 16px;
+}
 /* estilos formulario */
 .formulario {
   flex-direction: column;
@@ -42,11 +47,16 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
 }
+.input-group {
+  width: 50%;
+}
 
 .input-field {
   height: 50px;
   border: 1px solid var(--color-bordes-formulario);
   border-radius: 8px;
+  width: 100%;
+  margin-bottom: 28px;
 }
 
 button {
