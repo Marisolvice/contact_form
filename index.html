@@ -15,54 +15,43 @@
     <title>Frontend Mentor | Contact form</title>
   </head>
   <body>
-    <form class="formulario">
-      <h1>Contact Us</h1>
+    <section class="contenedor">
+      <form class="formulario">
+        <h1>Contact Us</h1>
+        <div class="nombre_Apellido">
+          <label class="d-block" for="firstName"> First Name *</label>
+          <input id="firstName" type="text" name="firstName" />
 
-      <div class="nombre_Apellido">
-        <label class="d-block" for="firstName"> First Name *</label>
-        <input id="firstName" type="text" name="firstName" />
+          <label class="d-block" for="LastName">Last Name *</label>
+          <input id="LastName" type="text" name="LastName" />
+        </div>
 
-        <label class="d-block" for="LastName">Last Name *</label>
-        <input id="LastName" type="text" name="LastName" />
-      </div>
+        <div class="correo">
+          <label class="d-block" for="email">Email Address *</label>
+          <input id="email" type="email" name="email" />
+        </div>
 
-      <div class="correo">
-        <label class="d-block" for="email">Email Address *</label>
-        <input id="email" type="email" name="email" />
-      </div>
+        <div class="radiobutton">
+          <label class="d-block" for="querytype">Query Type*</label>
 
-      <div class="radiobutton">
-        <label class="d-block" for="querytype">Query Type*</label>
+          <input id="GeneralEnquiry" type="radio" name="GeneralEnquiry" />
+          <label for="GeneralEnquiry">General Enquiry</label>
+          <input id="supportrequest" type="radio" name="supportrequest" />
+          <label for="supportrequest">Support Request</label>
+        </div>
 
-        <input id="GeneralEnquiry" type="radio" name="GeneralEnquiry" />
-        <label for="GeneralEnquiry">General Enquiry</label>
-        <input id="supportrequest" type="radio" name="supportrequest" />
-        <label for="supportrequest">Support Request</label>
-      </div>
-
-      <div class="textarea">
-        <label class="d-block" for="message">Message *</label>
-        <textarea type="text" name="message" id="message" rows="4"></textarea>
-      </div>
-      <div>
-        <input id="consentimiento" type="checkbox" name="consentimiento" />
-        <label for="consentimiento"
-          >I consent to being contacted by the team *
-        </label>
-      </div>
-      <button type="submit">Submit</button>
-    </form>
-    This field is required This field is required Email Address Please enter a
-    valid email address This field is required Query Type General Enquiry
-    Support Request Please select a query type Message This field is required I
-    consent to being contacted by the team To submit this form, please consent
-    to being contacted Submit Message Sent! Thanks for completing the form.
-    We'll be in touch soon!
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
-    </div>
+        <div class="textarea">
+          <label class="d-block" for="message">Message *</label>
+          <textarea type="text" name="message" id="message" rows="4"></textarea>
+        </div>
+        <div>
+          <input id="consentimiento" type="checkbox" name="consentimiento" />
+          <label for="consentimiento"
+            >I consent to being contacted by the team *
+          </label>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
   </body>
 </html>
