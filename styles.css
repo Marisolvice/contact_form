@@ -24,6 +24,11 @@ body {
 .mb-14 {
   margin-bottom: 14px;
 }
+
+.color-green {
+  color: var(--color-boton-primario);
+}
+
 /* contenedor general */
 .contenedor {
   width: 100vw;
