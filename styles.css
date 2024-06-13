@@ -40,7 +40,7 @@ body {
 
 .nombre-apellido {
   display: flex;
-  gap: 16px;
+  gap: 17px;
 }
 /* estilos formulario */
 .formulario {
@@ -54,7 +54,7 @@ body {
 }
 .main-title {
   font-size: 28px;
-  margin:27px 0 40px;
+  margin: 27px 0 40px;
 }
 
 .input-group {
