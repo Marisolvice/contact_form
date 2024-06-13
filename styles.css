@@ -40,7 +40,7 @@ body {
 
 .nombre-apellido {
   display: flex;
-  gap: 17px;
+  gap: 16px;
 }
 /* estilos formulario */
 .formulario {
@@ -69,6 +69,25 @@ body {
   margin-bottom: 28px;
 }
 
+.Opcradiobutton {
+  display: inline-block;
+  width: 302px;
+  height: 52px;
+  border-radius: 8px;
+  border: 1px solid var(--color-bordes-formulario);
+  margin-bottom: 28px;
+  padding: 2px;
+}
+
+.areamessage {
+  width: 623px;
+  height: 100px;
+  border-radius: 8px;
+}
+
+.checkboxconsentimiento {
+  gap: 16px;
+}
 button {
   background-color: var(--color-boton-primario);
   width: 100%;

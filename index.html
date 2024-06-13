@@ -54,16 +54,28 @@
           <label class="d-block mb-14" for="querytype"
             >Query Type <span class="color-green">*</span></label
           >
+          <div class="Opcradiobutton">
+            <input id="GeneralEnquiry" type="radio" name="GeneralEnquiry" />
+            <label for="GeneralEnquiry">General Enquiry</label>
+          </div>
 
-          <input id="GeneralEnquiry" type="radio" name="GeneralEnquiry" />
-          <label for="GeneralEnquiry">General Enquiry</label>
-          <input id="supportrequest" type="radio" name="supportrequest" />
-          <label for="supportrequest">Support Request</label>
+          <div class="Opcradiobutton">
+            <input id="supportrequest" type="radio" name="supportrequest" />
+            <label for="supportrequest">Support Request</label>
+          </div>
         </div>
 
         <div class="textarea">
-          <label class="d-block mb-14" for="message">Message <span class="color-green">*</span></label>
-          <textarea type="text" name="message" id="message" rows="4"></textarea>
+          <label class="d-block mb-14" for="message"
+            >Message <span class="color-green">*</span></label
+          >
+          <textarea
+            class="areamessage"
+            type="text"
+            name="message"
+            id="message"
+            rows="4"
+          ></textarea>
         </div>
         <div>
           <input id="consentimiento" type="checkbox" name="consentimiento" />
