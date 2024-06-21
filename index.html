@@ -49,19 +49,28 @@
           >
           <input class="input-field" id="email" type="email" name="email" />
         </div>
-
-        <div class="radiobutton">
-          <label class="d-block mb-14" for="querytype"
-            >Query Type <span class="color-green">*</span></label
-          >
-          <div class="Opcradiobutton">
-            <input id="GeneralEnquiry" type="radio" name="GeneralEnquiry" />
-            <label for="GeneralEnquiry">General Enquiry</label>
+        <label class="d-block mb-14" for="querytype"
+          >Query Type <span class="color-green">*</span></label
+        >
+        <div class="contenedor-opciones">
+          <div class="opcradiobutton">
+            <input
+              class="input-Radio"
+              id="GeneralEnquiry"
+              type="radio"
+              name="GeneralEnquiry"
+            />
+            <label class="opcradio" for="GeneralEnquiry">General Enquiry</label>
           </div>
 
-          <div class="Opcradiobutton">
-            <input id="supportrequest" type="radio" name="supportrequest" />
-            <label for="supportrequest">Support Request</label>
+          <div class="opcradiobutton">
+            <input
+              class="input-Radio"
+              id="supportrequest"
+              type="radio"
+              name="supportrequest"
+            />
+            <label class="opcradio" for="supportrequest">Support Request</label>
           </div>
         </div>
 
@@ -77,7 +86,7 @@
             rows="4"
           ></textarea>
         </div>
-        <div>
+        <div class="tratamiento-datos">
           <input id="consentimiento" type="checkbox" name="consentimiento" />
           <label for="consentimiento"
             >I consent to being contacted by the team *
